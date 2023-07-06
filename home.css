@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div {
+
+    align-items: center;
+
+    background: url('images/minion.webp');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    display: grid;
+    height: 100vh;
+    place-items: center;
+    position: relative;
+    
+  }
+
+  .logBtn{
+    position: absolute;
+    top:10px;
+    right: 30px;
+    padding: 10px 60px;
+    border-radius: 8px;
+    border: none;
+    background-color: #e56811;
+    color: #ffffff;
+    font-size: 1rem;
+  }
